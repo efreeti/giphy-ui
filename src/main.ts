@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import 'reflect-metadata';
 import { container } from 'inversify-props';
+import 'intersection-observer';
 import VueObserveVisibility from 'vue-observe-visibility';
 // @ts-ignore
 import VueMaterial from 'vue-material';
