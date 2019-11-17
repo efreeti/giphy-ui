@@ -4,12 +4,12 @@ import { mount } from '@vue/test-utils';
 import { intersectionObserver } from '@shopify/jest-dom-mocks';
 
 import './config';
-import { createImages } from "./utils";
+import { createImages } from './utils';
 
-import { SearchResultPageData } from "@/models/SearchResultPageData";
+import { SearchResultPageData } from '@/models/SearchResultPageData';
 import App from '@/App.vue';
-import SearchField from "@/components/SearchField.vue";
-import ScrollTrackingContainer from "@/components/ScrollTrackingContainer.vue";
+import SearchField from '@/components/SearchField.vue';
+import ScrollTrackingContainer from '@/components/ScrollTrackingContainer.vue';
 
 Vue.use(Vuex);
 
