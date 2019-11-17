@@ -11,7 +11,7 @@
       <div class="md-layout-item md-xlarge-size-30 md-large-size-40 md-medium-size-50 md-small-size-80 md-xsmall-size-100">
         <scroll-tracking-container :track-scroll-end="hasMoreSearchResultPages" @scroll-end="showOneMorePage">
           <search-result-page v-for="(searchResultPage, index) in searchResultPages" v-bind:key="index"
-                              :page-data="searchResultPage" />
+                              :page-data="searchResultPage" :page-max-size="searchResultPageSize" />
         </scroll-tracking-container>
       </div>
     </md-app-content>

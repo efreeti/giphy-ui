@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResultPage should render error state correctly 1`] = `
+<div>
+  <div>
+    <div>
+      <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"><div><div><i class="md-icon md-icon-font md-size-5x md-accent md-theme-default">error</i></div> <div><span class="error-message-text md-body-2">
+            Something went wrong, try refreshing the page
+          </span></div>
+    </div></span>
+  </div></span>
+</div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"><div><div><i class="md-icon md-icon-font md-size-5x md-accent md-theme-default">error</i></div> <div><span class="error-message-text md-body-2">
+            Something went wrong, try refreshing the page
+          </span></div>
+</div></span></div></span></div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"><div><div><i class="md-icon md-icon-font md-size-5x md-accent md-theme-default">error</i></div> <div><span class="error-message-text md-body-2">
+            Something went wrong, try refreshing the page
+          </span></div>
+</div></span></div></span></div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"><div><div><i class="md-icon md-icon-font md-size-5x md-accent md-theme-default">error</i></div> <div><span class="error-message-text md-body-2">
+            Something went wrong, try refreshing the page
+          </span></div>
+</div></span></div></span></div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"><div><div><i class="md-icon md-icon-font md-size-5x md-accent md-theme-default">error</i></div> <div><span class="error-message-text md-body-2">
+            Something went wrong, try refreshing the page
+          </span></div>
+</div></span></div></span></div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"><div><div><i class="md-icon md-icon-font md-size-5x md-accent md-theme-default">error</i></div> <div><span class="error-message-text md-body-2">
+            Something went wrong, try refreshing the page
+          </span></div>
+</div></span></div></span></div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"><div><div><i class="md-icon md-icon-font md-size-5x md-accent md-theme-default">error</i></div> <div><span class="error-message-text md-body-2">
+            Something went wrong, try refreshing the page
+          </span></div>
+</div></span></div></span></div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"><div><div><i class="md-icon md-icon-font md-size-5x md-accent md-theme-default">error</i></div> <div><span class="error-message-text md-body-2">
+            Something went wrong, try refreshing the page
+          </span></div>
+</div></span></div></span></div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"><div><div><i class="md-icon md-icon-font md-size-5x md-accent md-theme-default">error</i></div> <div><span class="error-message-text md-body-2">
+            Something went wrong, try refreshing the page
+          </span></div>
+</div></span></div></span></div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"><div><div><i class="md-icon md-icon-font md-size-5x md-accent md-theme-default">error</i></div> <div><span class="error-message-text md-body-2">
+            Something went wrong, try refreshing the page
+          </span></div>
+</div></span></div></span></div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"><div><div><i class="md-icon md-icon-font md-size-5x md-accent md-theme-default">error</i></div> <div><span class="error-message-text md-body-2">
+            Something went wrong, try refreshing the page
+          </span></div>
+</div></span></div></span></div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"><div><div><i class="md-icon md-icon-font md-size-5x md-accent md-theme-default">error</i></div> <div><span class="error-message-text md-body-2">
+            Something went wrong, try refreshing the page
+          </span></div>
+</div></span></div></span></div>
+</div>
+</div>
+</div>
+`;
+
+exports[`SearchResultPage should render loading state correctly 1`] = `
+<div>
+  <div>
+    <div>
+      <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"></span></div></span>
+    </div>
+  </div>
+  <div>
+    <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"></span></div></span>
+  </div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"></span></div></span>
+</div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"></span></div></span>
+</div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"></span></div></span>
+</div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"></span></div></span>
+</div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"></span></div></span>
+</div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"></span></div></span>
+</div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"></span></div></span>
+</div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"></span></div></span>
+</div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"></span></div></span>
+</div>
+</div>
+<div>
+  <div class="image-card"><span class="image-background"><div class="image-placeholder"><span class="image-placeholder-content"></span></div></span>
+</div>
+</div>
+</div>
+</div>
+`;
+
+exports[`SearchResultPage should render success state correctly 1`] = `
+<div>
+  <div>
+    <div class="image-card"><span class="image-background"><span><div role="placeholder" style="width: 100px; height: 100px;"></div></span></span></div>
+  </div>
+  <div>
+    <div class="image-card"><span class="image-background"><span><div role="placeholder" style="width: 100px; height: 100px;"></div></span></span></div>
+  </div>
+  <div>
+    <div class="image-card"><span class="image-background"><span><div role="placeholder" style="width: 100px; height: 100px;"></div></span></span></div>
+  </div>
+  <div>
+    <div class="image-card"><span class="image-background"><span><div role="placeholder" style="width: 100px; height: 100px;"></div></span></span></div>
+  </div>
+  <div>
+    <div class="image-card"><span class="image-background"><span><div role="placeholder" style="width: 100px; height: 100px;"></div></span></span></div>
+  </div>
+  <div>
+    <div class="image-card"><span class="image-background"><span><div role="placeholder" style="width: 100px; height: 100px;"></div></span></span></div>
+  </div>
+  <div>
+    <div class="image-card"><span class="image-background"><span><div role="placeholder" style="width: 100px; height: 100px;"></div></span></span></div>
+  </div>
+  <div>
+    <div class="image-card"><span class="image-background"><span><div role="placeholder" style="width: 100px; height: 100px;"></div></span></span></div>
+  </div>
+  <div>
+    <div class="image-card"><span class="image-background"><span><div role="placeholder" style="width: 100px; height: 100px;"></div></span></span></div>
+  </div>
+  <div>
+    <div class="image-card"><span class="image-background"><span><div role="placeholder" style="width: 100px; height: 100px;"></div></span></span></div>
+  </div>
+  <!---->
+</div>
+`;

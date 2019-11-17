@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorMessage should render correctly 1`] = `
+<div>
+  <div><i class="md-icon md-icon-font md-size-5x md-accent md-theme-default">error</i></div>
+  <div><span class="error-message-text md-body-2"><span>error message</span></span></div>
+</div>
+`;

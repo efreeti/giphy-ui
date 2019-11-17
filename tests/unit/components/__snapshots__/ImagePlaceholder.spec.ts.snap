@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImagePlaceholder should render correctly 1`] = `<div class="image-placeholder"><span class="image-placeholder-content"><span>some content</span></span></div>`;
