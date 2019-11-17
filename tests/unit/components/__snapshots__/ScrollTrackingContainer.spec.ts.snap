@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScrollTrackingContainer should render content correctly 1`] = `
+<div>
+  <div>some content</div>
+  <!---->
+</div>
+`;
+
+exports[`ScrollTrackingContainer should render tracker correctly 1`] = `
+<div>
+  <div>
+    <div role="scroll-end-tracker" class="scroll-end-tracker"></div>
+  </div>
+</div>
+`;

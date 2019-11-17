@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageCard should render correctly 1`] = `<div class="image-card"><span class="image-background"><div></div></span></div>`;

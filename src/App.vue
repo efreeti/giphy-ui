@@ -8,6 +8,12 @@
       </div>
     </md-app-toolbar>
     <md-app-content class="md-layout md-alignment-center-center">
+      <div class="md-layout-item md-xlarge-size-30 md-large-size-40 md-medium-size-50 md-small-size-80 md-xsmall-size-100">
+        <scroll-tracking-container :track-scroll-end="hasMoreSearchResultPages" @scroll-end="showOneMorePage">
+          <search-result-page v-for="(searchResultPage, index) in searchResultPages" v-bind:key="index"
+                              :page-data="searchResultPage" />
+        </scroll-tracking-container>
+      </div>
     </md-app-content>
   </md-app>
 </template>
@@ -19,12 +25,16 @@ import { namespace } from 'vuex-class';
 import { SearchResultPageData } from '@/models/SearchResultPageData';
 
 import SearchField from "@/components/SearchField.vue";
+import SearchResultPage from "@/components/SearchResultPage.vue";
+import ScrollTrackingContainer from "@/components/ScrollTrackingContainer.vue";
 
 const app = namespace('app');
 
 @Component({
   components: {
     'search-field': SearchField,
+    'search-result-page': SearchResultPage,
+    'scroll-tracking-container': ScrollTrackingContainer,
   },
 })
 export default class App extends Vue {

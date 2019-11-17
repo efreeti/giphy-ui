@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GiphyImage should render initialized correctly 1`] = `<span><img src="some-image.gif" width="100" height="100" class="md-image"></span>`;
+
+exports[`GiphyImage should render uninitialized correctly 1`] = `<span><div role="placeholder" style="width: 100px; height: 100px;"></div></span>`;
