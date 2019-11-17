@@ -131,3 +131,5 @@ Some explanation what was inside deliverables, what is not and some other choice
      do this very easily.
    * I intentionally did not use **await** keyword when testing actions in Vuex store, because I wanted to make asserts
      on storing loading state in the store.
+   * I prefer using fixed dependency versions as that gives more guarantee on getting working version, but it is more common
+     in the community to not fixate versions, hence I followed that.
