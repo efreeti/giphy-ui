@@ -1,7 +1,7 @@
 <template>
   <md-app md-mode="fixed">
     <md-app-toolbar class="md-layout md-alignment-center-center">
-      <div class="md-layout-item md-size-40">
+      <div class="md-layout-item md-xlarge-size-30 md-large-size-40 md-medium-size-50 md-small-size-80 md-xsmall-size-100">
         <search-field :value="searchText" @input="updateSearchText" @search="updateSearchResults">
           <template slot="label">Search keyword(s)</template>
         </search-field>
