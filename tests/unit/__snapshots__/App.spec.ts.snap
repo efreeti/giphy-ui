@@ -4,7 +4,7 @@ exports[`App should render correctly 1`] = `
 <div class="md-app md-app-side-drawer md-layout-row md-fixed md-theme-default">
   <main class="md-app-container md-flex md-layout-column md-theme-default md-scrollbar" style="padding-left: 0px;">
     <div class="md-toolbar md-app-toolbar md-layout md-alignment-center-center md-theme-default md-elevation-4" style="top: 0px;">
-      <div class="md-layout-item md-size-40">
+      <div class="md-layout-item md-xlarge-size-30 md-large-size-40 md-medium-size-50 md-small-size-80 md-xsmall-size-100">
         <div class="md-field md-theme-default"><label for="md-input-zolfdnfyf">Search keyword(s)</label> <input type="text" id="md-input-zolfdnfyf" class="md-input"> <button type="button" class="md-button md-icon-button md-dense md-theme-default">
             <div class="md-ripple">
               <div class="md-button-content"><i class="md-icon md-icon-font md-theme-default">search</i></div>
@@ -18,7 +18,7 @@ exports[`App should render correctly 1`] = `
     </div>
     <div class="md-app-scroller md-layout-column md-flex md-theme-default md-scrollbar">
       <div class="md-content md-app-content md-flex md-layout md-alignment-center-center md-theme-default">
-        <div class="md-layout-item md-size-40">
+        <div class="md-layout-item md-xlarge-size-30 md-large-size-40 md-medium-size-50 md-small-size-80 md-xsmall-size-100">
           <div>
             <div>
               <div>
