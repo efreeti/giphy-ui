@@ -1,6 +1,11 @@
 <template>
   <md-app md-mode="fixed">
     <md-app-toolbar class="md-layout md-alignment-center-center">
+      <div class="md-layout-item md-size-40">
+        <search-field :value="searchText" @input="updateSearchText" @search="updateSearchResults">
+          <template slot="label">Search keyword(s)</template>
+        </search-field>
+      </div>
     </md-app-toolbar>
     <md-app-content class="md-layout md-alignment-center-center">
     </md-app-content>
@@ -13,10 +18,13 @@ import { namespace } from 'vuex-class';
 
 import { SearchResultPageData } from '@/models/SearchResultPageData';
 
+import SearchField from "@/components/SearchField.vue";
+
 const app = namespace('app');
 
 @Component({
   components: {
+    'search-field': SearchField,
   },
 })
 export default class App extends Vue {
@@ -33,6 +41,10 @@ export default class App extends Vue {
   @app.Action private showOneMorePage!: () => void;
 
   @app.Getter private hasMoreSearchResultPages!: () => boolean;
+
+  created() {
+    this.updateSearchResults();
+  }
 }
 </script>
 
