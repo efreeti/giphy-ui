@@ -1,4 +1,4 @@
-# uber-assignment
+# giphy-ui
 
 ## Project setup
 ```
