@@ -1,4 +1,4 @@
-import {GiphyResponseItem} from '@/models/GiphyResponseItem';
+import { GiphyResponseItem } from '@/models/GiphyResponseItem';
 
 export function createImages(ids: Array<number>): Array<GiphyResponseItem> {
   return ids.map(id => ({

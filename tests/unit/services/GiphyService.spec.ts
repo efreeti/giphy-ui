@@ -1,8 +1,8 @@
 import 'reflect-metadata';
 import axios from 'axios';
 
-import {GiphyService} from '@/services/GiphyService';
-import {createImages} from '../utils';
+import { GiphyService } from '@/services/GiphyService';
+import { createImages } from '../utils';
 
 jest.mock('axios');
 
