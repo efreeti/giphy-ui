@@ -18,7 +18,7 @@ Vue.config.productionTip = false;
 Vue.use(VueMaterial);
 Vue.use(VueObserveVisibility);
 
-container.addSingleton<IGiphyService>(GiphyService);
+container.addSingleton<IGiphyService>(GiphyService, 'IGiphyService');
 
 new Vue({
   store,

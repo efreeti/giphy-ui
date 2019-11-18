@@ -12,7 +12,7 @@ interface SearchResultPageUpdate {
 
 @Module({ store: store, dynamic: true, name: 'app', namespaced: true })
 export default class AppStore extends VuexModule {
-  @Inject()
+  @Inject('IGiphyService')
   private giphyService!: IGiphyService;
 
   searchText = '';
