@@ -33,6 +33,23 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+### Run Docker and docker-compose setups (use to test production setup of the application)
+
+To run docker-compose setup run following in the root of the project:
+
+```
+docker-compose up
+```
+
+This will start application at http://localhost:8080
+
+If no docker-compose setup but only Docker, run:
+
+```
+docker build -t giphy-ui .
+docker run -it -p 8080:80 --rm --name giphy-ui-1 giphy-ui
+```
+
 ### Read before evaluating
 
 What I would like to clarify is that tasks of this type are always quite problematic for developer. It is always ambiguous

@@ -1,0 +1,14 @@
+version: "2"
+services:
+  giphy-ui:
+    container_name: giphy-ui
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    networks:
+      - frontend
+    ports:
+      - "8080:80"
+
+networks:
+  frontend:
